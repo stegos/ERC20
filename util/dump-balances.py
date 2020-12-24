@@ -26,3 +26,4 @@ print(f'log Transfer(ZERO_ADDRESS, msg.sender, {1_000_000_000_000_000 - supply})
 for k, v in balances.items():
     if v > 0:
         print(f'log Transfer(msg.sender, {k}, {v})')
+        print(f'self.balances[{k}] = {v}')
